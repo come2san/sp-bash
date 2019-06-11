@@ -19,7 +19,7 @@
     <t:RequestSecurityToken xmlns:t="http://schemas.xmlsoap.org/ws/2005/02/trust">
       <wsp:AppliesTo xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
         <a:EndpointReference>
-          <a:Address>https://[ you ].sharepoint.com/</a:Address>
+          <a:Address>https://AgilePoint462.sharepoint.com/</a:Address>
         </a:EndpointReference>
       </wsp:AppliesTo>
       <t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType>
