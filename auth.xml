@@ -10,8 +10,8 @@
     <o:Security s:mustUnderstand="1"
        xmlns:o="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
       <o:UsernameToken>
-        <o:Username>[ your user name ]</o:Username>
-        <o:Password>[ your password ]</o:Password>
+        <o:Username>john.smith@agilepoint462.onmicrosoft.com</o:Username>
+        <o:Password>AgileFlow1916</o:Password>
       </o:UsernameToken>
     </o:Security>
   </s:Header>
@@ -19,7 +19,7 @@
     <t:RequestSecurityToken xmlns:t="http://schemas.xmlsoap.org/ws/2005/02/trust">
       <wsp:AppliesTo xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy">
         <a:EndpointReference>
-          <a:Address>https://[ you ].sharepoint.com/</a:Address>
+          <a:Address>https://agilepoint462.sharepoint.com/</a:Address>
         </a:EndpointReference>
       </wsp:AppliesTo>
       <t:KeyType>http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey</t:KeyType>
