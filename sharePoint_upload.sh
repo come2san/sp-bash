@@ -54,4 +54,4 @@ curl -b cookies \
      -H "Accept: application/json;odata=verbose" \
      -H "Content-Type: multipart/form-data" \
      -T "${1}" \
-     -X POST "https://[ you ].sharepoint.com/sites/${SITENAME}/_api/web/GetFolderByServerRelativeUrl('${3}')/files/add(url='${FILENAME}',overwrite=true)"
+     -X POST "https://AgilePoint462.sharepoint.com/sites/${SITENAME}/_api/web/GetFolderByServerRelativeUrl('${3}')/files/add(url='${FILENAME}',overwrite=true)"
